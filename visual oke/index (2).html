@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Shery Najma Nafisa">
+  <meta name="description" content="Halaman profil pribadi (CV) Shery Najma Nafisa, mahasiswa Sistem Informasi">
+  <title>Profil Pribadi - Shery Najma Nafisa</title>
+  <link rel="stylesheet" href="style (2).css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+
+  <!-- ===== MENU UTAMA (menempel di atas saat scroll) ===== -->
+  <nav id="menu" aria-label="Menu utama">
+    <a class="logo" href="#atas">Shery<sup>&reg;</sup></a>
+    <div class="links">
+      <a href="#atas">Beranda</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#biodata">Biodata</a>
+      <a href="#pendidikan">Pendidikan</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#kontak">Kontak</a>
+    </div>
+    <a class="btn primary" href="#kontak">Hubungi Saya</a>
+  </nav>
+
+
+  <!-- ===== HEADER ===== -->
+  <header id="atas">
+    <div class="sky" aria-hidden="true"><span class="cloud c1"></span><span class="cloud c2"></span><span class="cloud c3"></span></div>
+    <p class="badge">Mahasiswa Sistem Informasi, Fakultas Ilmu Komputer</p>
+    <h1>Profil Pribadi<br>Shery Najma Nafisa</h1>
+    <p class="sub">Biodata saya yang riwayat pendidikan, keahlian, serta pengalaman dan prestasi saya di bidang desain, organisasi, dan olahraga.</p>
+    <p class="cta">
+      <a class="btn primary" href="#tentang">Mulai dari Tentang Saya</a>
+      <a class="btn" href="#pengalaman">Lihat pengalaman</a>
+    </p>
+    <div class="scene" aria-hidden="true">
+      <svg id="hills" viewBox="0 0 1440 460" preserveAspectRatio="xMidYMax slice"></svg>
+    </div>
+  </header>
+
+
+  <hr>
+
+  <main>
+
+    <!-- ===== TENTANG SAYA ===== -->
+    <section id="tentang">
+      <h2>Tentang Saya</h2>
+      <figure>
+        <img src="foto (1).png" alt="Foto profil Shery Najma Nafisa" width="150">
+        <figcaption>Shery Najma Nafisa</figcaption>
+      </figure>
+      <p>
+        Halo! Saya <strong>Shery Najma Nafisa</strong>, mahasiswa
+        <em>Sistem Informasi</em> yang tertarik pada pengembangan web,
+        UI/UX, desain grafis, marketing, dan juga ilmu bisnis. Saya senang
+        belajar hal baru dan bekerja di dalam tim untuk membangun sebuah
+        project yang berguna bagi diri sendiri maupun orang lain.
+      </p>
+
+      <h3>Bidang yang Diminati</h3>
+      <ul>
+        <li>Pengembangan web</li>
+        <li>UI/UX</li>
+        <li>Desain grafis</li>
+        <li>Marketing</li>
+        <li>Ilmu bisnis</li>
+      </ul>
+
+      <nav class="pager" aria-label="Navigasi antar bagian">
+        <a class="btn" href="#atas">&larr; Beranda</a>
+        <a class="btn primary" href="#biodata">Biodata &rarr;</a>
+        <a class="btn ghost" href="#atas">&uarr; Ke atas</a>
+      </nav>
+    </section>
+
+    <hr>
+
+    <!-- ===== BIODATA (TABEL) ===== -->
+    <section id="biodata">
+      <h2>Biodata</h2>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <caption>Data diri</caption>
+        <tbody>
+          <tr>
+            <th scope="row" align="left">Nama Lengkap</th>
+            <td>Shery Najma Nafisa</td>
+          </tr>
+          <tr>
+            <th scope="row" align="left">NIM</th>
+            <td>A12.2025.07345</td>
+          </tr>
+          <tr>
+            <th scope="row" align="left">Tempat, Tanggal Lahir</th>
+            <td>Semarang, 11 Mei 2007</td>
+          </tr>
+          <tr>
+            <th scope="row" align="left">Jenis Kelamin</th>
+            <td>Perempuan</td>
+          </tr>
+          <tr>
+            <th scope="row" align="left">Program Studi</th>
+            <td>Sistem Informasi</td>
+          </tr>
+          <tr>
+            <th scope="row" align="left">Fakultas</th>
+            <td>Ilmu Komputer</td>
+          </tr>
+          <tr>
+            <th scope="row" align="left">Alamat</th>
+            <td>Jl. Lamper Mijen No. 336A, Semarang</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <nav class="pager" aria-label="Navigasi antar bagian">
+        <a class="btn" href="#tentang">&larr; Tentang</a>
+        <a class="btn primary" href="#pendidikan">Pendidikan &rarr;</a>
+        <a class="btn ghost" href="#atas">&uarr; Ke atas</a>
+      </nav>
+    </section>
+
+    <hr>
+
+    <!-- ===== PENDIDIKAN (TABEL) ===== -->
+    <section id="pendidikan">
+      <h2>Riwayat Pendidikan</h2>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <caption>Riwayat pendidikan formal</caption>
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Jenjang</th>
+            <th scope="col">Institusi</th>
+            <th scope="col">Tahun</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>SD</td>
+            <td>SDN Lamper Kidul 02</td>
+            <!-- CEK LAGI: tahun SD belum kamu tulis, ini perkiraan -->
+            <td>2013 - 2019</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>SMP</td>
+            <td>SMPN 2 Semarang</td>
+            <td>2019 - 2022</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>SMA/SMK/Sederajat</td>
+            <td>SMKN 4 Semarang</td>
+            <td>2022 - 2025</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Kuliah (S1 Sistem Informasi)</td>
+            <td>Universitas Dian Nuswantoro</td>
+            <td>2025 - sekarang</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <nav class="pager" aria-label="Navigasi antar bagian">
+        <a class="btn" href="#biodata">&larr; Biodata</a>
+        <a class="btn primary" href="#keahlian">Keahlian &rarr;</a>
+        <a class="btn ghost" href="#atas">&uarr; Ke atas</a>
+      </nav>
+    </section>
+
+    <hr>
+
+    <!-- ===== KEAHLIAN (DAFTAR) ===== -->
+    <section id="keahlian">
+      <h2>Keahlian</h2>
+
+      <article>
+        <h3>Keahlian Teknis</h3>
+        <ol>
+          <li>Dapat menggunakan Adobe Family</li>
+          <li>Memahami keseimbangan dan visual yang baik dalam sebuah desain</li>
+        </ol>
+      </article>
+
+      <article>
+        <h3>Keahlian Non-Teknis</h3>
+        <ol>
+          <li>Cukup baik dalam manajemen waktu</li>
+          <li>Dapat menemukan solusi (problem solving) dalam suatu masalah</li>
+          <li>Mampu bekerja secara tim</li>
+        </ol>
+      </article>
+
+      <article>
+        <h3>Bahasa</h3>
+        <ol>
+          <li>Bahasa Indonesia (aktif)</li>
+          <li>Bahasa Inggris (pasif)</li>
+        </ol>
+      </article>
+
+      <nav class="pager" aria-label="Navigasi antar bagian">
+        <a class="btn" href="#pendidikan">&larr; Pendidikan</a>
+        <a class="btn primary" href="#pengalaman">Pengalaman &rarr;</a>
+        <a class="btn ghost" href="#atas">&uarr; Ke atas</a>
+      </nav>
+    </section>
+
+    <hr>
+
+    <!-- ===== PENGALAMAN DAN PRESTASI (TABEL) ===== -->
+    <section id="pengalaman">
+      <h2>Pengalaman dan Prestasi</h2>
+
+      <h3>Prestasi</h3>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <caption>Daftar prestasi</caption>
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Waktu</th>
+            <th scope="col">Prestasi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><time datetime="2022-07">Juli 2022</time></td>
+            <td>Juara 3, Kejuaraan Kota Bola Basket Antar Klub di Semarang</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><time datetime="2023-07">Juli 2023</time></td>
+            <td>Juara 2, Festival Olahraga Jawa Barat VII 2023</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><time datetime="2023-07">Juli 2023</time></td>
+            <td>Juara 3, Kejuaraan Nasional ICA</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Pengalaman Kerja dan Organisasi</h3>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <caption>Daftar pengalaman kerja, organisasi, dan kepanitiaan</caption>
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Waktu</th>
+            <th scope="col">Pengalaman</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><time datetime="2024-07">Juli 2024</time></td>
+            <td>Desain Grafis, Agency di Semarang</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><time datetime="2024-12">Desember 2024</time> - <time datetime="2025-12">Desember 2025</time></td>
+            <td>Kepengurusan ICA Jateng</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><time datetime="2026-02">Februari 2026</time> - sekarang</td>
+            <td>Kepengurusan DNCC</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><time datetime="2026-03">Maret 2026</time> - sekarang</td>
+            <td>Creative Manager, Lentera Group</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><time datetime="2026-07">Juli 2026</time></td>
+            <td>Event Organizer (EO) Event Boxing</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <nav class="pager" aria-label="Navigasi antar bagian">
+        <a class="btn" href="#keahlian">&larr; Keahlian</a>
+        <a class="btn primary" href="#kontak">Kontak &rarr;</a>
+        <a class="btn ghost" href="#atas">&uarr; Ke atas</a>
+      </nav>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <!-- ===== KONTAK (ASIDE) ===== -->
+  <aside id="kontak">
+    <h2>Kontak</h2>
+    <address>
+      Alamat: Jl. Lamper Mijen No. 336A, Semarang<br>
+      Email: <a href="mailto:112202507345@mhs.dinus.ac.id">112202507345@mhs.dinus.ac.id</a>
+    </address>
+
+      <nav class="pager" aria-label="Navigasi antar bagian">
+        <a class="btn" href="#pengalaman">&larr; Pengalaman</a>
+        <a class="btn ghost" href="#atas">&uarr; Ke atas</a>
+      </nav>
+    </aside>
+
+  <hr>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p><small>&copy; 2026 Shery Najma Nafisa. Tugas 1 - Halaman Profil Pribadi Statis dengan HTML5.</small></p>
+    <p><a href="#">Kembali ke atas</a></p>
+  </footer>
+
+  <!-- Tombol kembali: ke posisi sebelumnya, tanpa scroll dari awal -->
+  <button type="button" id="btn-back" aria-label="Kembali ke posisi sebelumnya">&larr; Kembali</button>
+
+  <script>
+    const back = document.getElementById("btn-back");
+    back.addEventListener("click", () => {
+      if (history.length > 1 && location.hash) history.back();
+      else window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+    addEventListener("scroll", () => back.classList.toggle("show", scrollY > 400), { passive: true });
+
+    // Tandai menu yang sedang aktif
+    const links = [...document.querySelectorAll("#menu .links a")];
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return;
+        links.forEach((a) => {
+          const on = a.getAttribute("href") === "#" + e.target.id;
+          a.classList.toggle("active", on);
+          on ? a.setAttribute("aria-current", "true") : a.removeAttribute("aria-current");
+        });
+      });
+    }, { rootMargin: "-40% 0px -55% 0px" });
+    document.querySelectorAll("header, main > section, aside").forEach((el) => io.observe(el));
+    // Bukit hijau dengan bunga yang bergoyang
+    (function () {
+      const svg = document.getElementById("hills");
+      if (!svg) return;
+      const NS = "http://www.w3.org/2000/svg", W = 1440, H = 460;
+      const mk = (tag, attrs, parent) => {
+        const el = document.createElementNS(NS, tag);
+        for (const k in attrs) el.setAttribute(k, attrs[k]);
+        (parent || svg).appendChild(el);
+        return el;
+      };
+      const layers = [
+        { base: 190, amp: 46, f: .0042, ph: 1.2, c1: "#9bd98a", c2: "#62b057", n: 30, r: 3.2, cols: ["#ff7a59", "#b48cff", "#ff9ad5"] },
+        { base: 270, amp: 52, f: .0036, ph: 3.1, c1: "#66ad52", c2: "#3f8d3f", n: 46, r: 5, cols: ["#ff5a3c", "#a37bff", "#ffb3d9"] },
+        { base: 360, amp: 44, f: .0048, ph: 5.4, c1: "#3f8f3f", c2: "#1f6a30", n: 52, r: 7.5, cols: ["#ff4a2e", "#9a6bff", "#ff8fcf"] }
+      ];
+      const defs = mk("defs", {});
+      layers.forEach((L, i) => {
+        const g = mk("linearGradient", { id: "hg" + i, x1: 0, y1: 0, x2: 0, y2: 1 }, defs);
+        mk("stop", { offset: "0", "stop-color": L.c1 }, g);
+        mk("stop", { offset: "1", "stop-color": L.c2 }, g);
+        L.y = (x) => L.base + L.amp * (Math.sin(x * L.f + L.ph) + .5 * Math.sin(x * L.f * 2.3 + L.ph * 2)) / 1.5;
+        let d = "M0 " + H;
+        for (let x = 0; x <= W; x += 20) d += " L" + x + " " + L.y(x).toFixed(1);
+        mk("path", { d: d + " L" + W + " " + H + " Z", fill: "url(#hg" + i + ")" });
+        for (let k = 0; k < L.n; k++) {
+          const x = Math.random() * W, y = L.y(x) + 10 + Math.random() * 36;
+          const len = L.r * (2.2 + Math.random() * 1.6), col = L.cols[k % 3];
+          const g1 = mk("g", { transform: "translate(" + x.toFixed(1) + " " + y.toFixed(1) + ")" });
+          const sw = mk("g", { class: "sway", style: "animation-delay:-" + (Math.random() * 5).toFixed(2) + "s" }, g1);
+          mk("line", { x1: 0, y1: 0, x2: 0, y2: -len, stroke: "#2c6e34", "stroke-width": L.r * .28 }, sw);
+          mk("circle", { cx: 0, cy: -len, r: L.r, fill: col }, sw);
+          mk("circle", { cx: 0, cy: -len, r: L.r * .38, fill: "#ffe486" }, sw);
+        }
+      });
+    })();
+
+    // Munculkan bagian saat di-scroll
+    const reveal = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("in"); reveal.unobserve(e.target); } });
+    }, { threshold: .05, rootMargin: "0px 0px -8% 0px" });
+    document.querySelectorAll("main > section, aside").forEach((el) => reveal.observe(el));
+  </script>
+
+</body>
+</html>
